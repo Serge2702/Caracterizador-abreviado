@@ -15,7 +15,7 @@
 (if (not (boundp 'dir_debussy))   (defconstant dir_debussy   "Patrones_por_frase/Debussy/"))
 (if (not (boundp 'dir_joplin))    (defconstant dir_joplin    "Patrones_por_frase/Joplin/"))
 
-(defparameter *considerar* (list dir_bach dir_mozart dir_muzio dir_beethoven dir_debussy dir_joplin))
+(defparameter *considerar* (list dir_bach dir_muzio dir_beethoven dir_debussy))
 ;}}}
 
 ;================================================================================

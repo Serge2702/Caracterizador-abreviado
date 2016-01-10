@@ -1,0 +1,16 @@
+Resultados_caracterizador/100-0.txt
+50,141,147,86,
+Resultados_caracterizador/10-0.txt
+127,281,255,209,
+Resultados_caracterizador/200-0.txt
+28,0,51,0,
+Resultados_caracterizador/20-0.txt
+127,281,255,208,
+Resultados_caracterizador/30-0.txt
+127,274,238,201,
+Resultados_caracterizador/40-0.txt
+119,252,211,188,
+Resultados_caracterizador/50-0.txt
+106,226,192,160,
+Resultados_caracterizador/60-0.txt
+88,200,158,131,

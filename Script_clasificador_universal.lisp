@@ -7,34 +7,37 @@
 (cond
   ((equal nombre_archivo "Resultados_caracterizador/100-0.txt")
    (defparameter *conteo_caracteristicas*
-     (list (list 53 1)(list 32 0)(list 17 2)(list 0 0)(list 0 0)(list 0 0))))
+     (list (list 3 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
   ((equal nombre_archivo "Resultados_caracterizador/10-0.txt")
    (defparameter *conteo_caracteristicas*
-     (list (list 74285 9496)(list 30779 9262)(list 122132 10200)(list 0 0)(list 0 0)(list 0 0))))
+     (list (list 13050 0)(list 12102 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
   ((equal nombre_archivo "Resultados_caracterizador/20-0.txt")
    (defparameter *conteo_caracteristicas*
-     (list (list 9749 1113)(list 7114 556)(list 2227 2126)(list 0 0)(list 0 0)(list 0 0))))
+     (list (list 2417 0)(list 1493 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
   ((equal nombre_archivo "Resultados_caracterizador/30-0.txt")
    (defparameter *conteo_caracteristicas*
-     (list (list 2378 336)(list 1856 192)(list 612 685)(list 0 0)(list 0 0)(list 0 0))))
+     (list (list 765 0)(list 498 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
   ((equal nombre_archivo "Resultados_caracterizador/40-0.txt")
    (defparameter *conteo_caracteristicas*
-     (list (list 1015 135)(list 441 70)(list 257 285)(list 0 0)(list 0 0)(list 0 0))))
+     (list (list 360 0)(list 224 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
   ((equal nombre_archivo "Resultados_caracterizador/50-0.txt")
    (defparameter *conteo_caracteristicas*
-     (list (list 529 80)(list 248 28)(list 133 154)(list 0 0)(list 0 0)(list 0 0))))
+     (list (list 180 0)(list 115 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
   ((equal nombre_archivo "Resultados_caracterizador/60-0.txt")
    (defparameter *conteo_caracteristicas*
-     (list (list 264 32)(list 121 9)(list 78 62)(list 0 0)(list 0 0)(list 0 0))))
+     (list (list 87 0)(list 53 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
   ((equal nombre_archivo "Resultados_caracterizador/70-0.txt")
    (defparameter *conteo_caracteristicas*
-     (list (list 153 22)(list 97 3)(list 54 48)(list 0 0)(list 0 0)(list 0 0))))
+     (list (list 34 0)(list 20 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
   ((equal nombre_archivo "Resultados_caracterizador/80-0.txt")
    (defparameter *conteo_caracteristicas*
-     (list (list 93 10)(list 71 0)(list 33 27)(list 0 0)(list 0 0)(list 0 0))))
+     (list (list 18 0)(list 8 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
   ((equal nombre_archivo "Resultados_caracterizador/90-0.txt")
    (defparameter *conteo_caracteristicas*
-     (list (list 72 5)(list 50 0)(list 22 12)(list 0 0)(list 0 0)(list 0 0))))
+     (list (list 9 0)(list 3 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados_caracterizador/Calculo_coberturas_corregido.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
   (t (print "Escribiste mal el nombre...")))
 
 (let ((temporal nil)(contador 0))
